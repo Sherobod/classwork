@@ -1,0 +1,317 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+}
+
+
+img {
+        max-width: 100%;
+}
+
+.container {
+        width: 1160px;
+        margin: 0 auto;
+        padding: 0 20px;
+}
+
+.promo {
+        background: url(./img/promo.jpg) no-repeat center / cover;
+        min-height: 789px;
+        padding: 25px 0;
+        color: white;
+
+}
+
+.header {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+}
+
+.menu {
+        display: flex;
+        gap: 20px;
+}
+
+.menu a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        text-decoration: none;
+}
+
+.menu a.active {
+        color: yellow;
+}
+
+.promo h1 {
+        margin: 131px 0 43px;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 117px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.btn {
+        width: 230px;
+        height: 50px;
+        border-radius: 60px;
+        background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        border: 0;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s;
+}
+
+.btn:hover {
+        scale: 1.03;
+}
+
+.btn:active {
+        scale: 0.97;
+        box-shadow: inset 0 -3px 5px black;
+}
+
+.tour_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 38px 0 110px;
+}
+
+.tour_head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 89px 0 38px 0;
+}
+
+h2 {
+        color: rgba(4, 153, 221, 1);
+}
+
+
+.tour_head a {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #282828;
+
+
+}
+
+.tour_elem h3 {
+        color: rgba(255, 199, 0, 1);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.tour_elem {
+        padding: 211px 16px 42px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+}
+
+.tour_elem p {
+        margin-bottom: 20px;
+}
+
+.info_box {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+        margin: 10px 0 20px;
+}
+
+.info_item {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+}
+
+.btn_box {
+        width: 160px;
+        height: 40px;
+        border-radius: 60px;
+        background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        border: 0;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin-top: auto;
+}
+
+.about {
+        background: url(./img/about.jpg) no-repeat center / cover;
+        padding: 136px 0;
+}
+
+.white_box {
+        background-color: #ededed;
+        height: auto;
+        width: 500px;
+        border-radius: 10px;
+        max-width: 542px;
+        margin: 0 auto;
+        padding: 61px 80px 85px;
+}
+
+.white_box h2 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(4, 153, 221, 1);
+}
+
+.white_box p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.text {
+        color: black;
+}
+
+.categories {
+        padding: 98px 0;
+}
+
+.categories h2 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0499dd;
+}
+
+.categories_grid {
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+}
+
+.categories_elem {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.categories_elem h3 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0499dd;
+        margin-bottom: 10px;
+}
+
+.catigories_desc {
+        max-width: 550px;
+        margin: 60px auto 0;
+        text-align: center;
+
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-bottom: 100px;
+}
+
+.catigories_desc p {
+        margin-bottom: 20px;
+}
+
+.gallery {
+        padding-bottom: 96px;
+}
+
+.gallary_grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1rf);
+        grid-template-rows: repeat(4, 123px);
+        gap: 16px;
+}
+
+
+.gallary_grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+}
+
+.gallary_grid img:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 1/3;
+}
+
+.gallary_grid img:nth-child(2) {
+        grid-row: 1/5;
+}
+
+.gallary_grid img:nth-child(3),
+.gallary_grid img:nth-child(4) {
+        grid-row: 1/3;
+}
+
+.gallary_grid img:nth-child(5) {
+        grid-row: 3/5;
+}
+
+.gallary_grid img:nth-child(8) {
+        grid-column: 4/6;
+        grid-row: 3/5;
+}
